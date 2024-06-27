@@ -10,7 +10,7 @@
 
 ![LQCS Diagram](https://github.com/tarekst/local-quarkus-angular-client-concept/blob/master/LQCS.png?raw=true)
 
-## Executeable mit eigenem Fenster
+## Executeable mit eigenem Fenster (Optional)
 
 - Fundament ist die Browser Web-Anwendung
 - Zusätzlich gibt es ein kleines NodeJS Electron Projekt, das ein Chromium based Fenster erstellt, welches mit dem electron-packager das Electron Projekt zu einer Windows Executeable Datei verpackt. 
