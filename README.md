@@ -6,7 +6,7 @@
 - Wird beim Systemstart ausgeführt
 - Desktop Browser-Shortcut zu der lokalen, mit dem Quarkus-Client-Server  betriebenen, Angular-Anwendung.
 
-## LQCS (Local-Quarkus-Server-Client) Diagram
+## LQCS (Local-Quarkus-Server-Client) Diagramm
 
 ![LQCS Diagram](https://github.com/tarekst/local-quarkus-angular-client-concept/blob/master/LQCS.png?raw=true)
 
