@@ -1,0 +1,15 @@
+<p>This message will be sent to Quarkus and sent back to the Angular UI:</p>
+<input type="text" [(ngModel)]="message" placeholder="Message">
+<select [(ngModel)]="level">
+  <option value="info">Info</option>
+  <option value="warn">Warning</option>
+  <option value="error">Error</option>
+</select>
+<button (click)="send()">Send!</button>
+
+<p>Received from Quarkus:</p>
+<ul>
+  <li *ngFor="let msg of receivedMessages">{{ msg }}</li>
+</ul>
+
+<router-outlet></router-outlet>
